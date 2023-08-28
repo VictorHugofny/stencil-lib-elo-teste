@@ -222,15 +222,11 @@
 // 		}
 // 	};
 
-	
 // 	radioSelected = (e) => {
 // 		let tab = e.composedPath()[0].getInnerHTML()
 // 		this.selectedTab = tab;
 // 		console.log(this.valuePath)
 // 	};
-
-
-
 
 //   render() {
 //     return (
@@ -286,8 +282,8 @@
 // 			></sy-button>
 // 		</sy-button-group>
 
-// 		<web-map-viewer 
-// 			// parsedFiles={this.shapeFile} 
+// 		<web-map-viewer
+// 			// parsedFiles={this.shapeFile}
 // 			params={this.paramsMapViewer}
 // 		/>
 // 		<br></br>

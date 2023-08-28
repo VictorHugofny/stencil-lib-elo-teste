@@ -16,9 +16,7 @@ export const config: Config = {
     {
       type: 'dist',
       esmLoaderPath: '../loader',
-      copy: [...getCopyExternalBundles(), 
-        { src: 'assets' }
-      ]
+      copy: [...getCopyExternalBundles(), { src: 'assets' }],
     },
     {
       type: 'docs-readme',
@@ -26,9 +24,11 @@ export const config: Config = {
     {
       type: 'www',
       serviceWorker: null, // disable service workers,
-      copy: [...getCopyExternalBundles(), 
-            // { src: 'assets/icons', dest: './' }
+      copy: [
+        ...getCopyExternalBundles(),
+
+        // { src: 'assets/icons', dest: './' }
       ],
-    }
+    },
   ],
 };
