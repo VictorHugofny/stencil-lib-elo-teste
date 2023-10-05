@@ -18,6 +18,14 @@
       "@my-workspace/elo-custom-fields-isaque": ["dist/packages/elo-custom-fields-isaque"],
       "@my-workspace/elo-custom-fields-isaque/*": ["dist/packages/elo-custom-fields-isaque/dist/components/*"],
       "@my-workspace/elo-custom-fields-isaque/loader": ["dist/packages/elo-custom-fields-isaque/loader"],
+      "@my-workspace/projeto-estudo-sydle-ui": ["dist/packages/projeto-estudo-sydle-ui"],
+      "@my-workspace/projeto-estudo-sydle-ui-victor": ["dist/packages/projeto-estudo-sydle-ui-victor"],
+      "@my-workspace/projeto-estudo-sydle-ui-victor/*": [
+        "dist/packages/projeto-estudo-sydle-ui-victor/dist/components/*"
+      ],
+      "@my-workspace/projeto-estudo-sydle-ui-victor/loader": ["dist/packages/projeto-estudo-sydle-ui-victor/loader"],
+      "@my-workspace/projeto-estudo-sydle-ui/*": ["dist/packages/projeto-estudo-sydle-ui/dist/components/*"],
+      "@my-workspace/projeto-estudo-sydle-ui/loader": ["dist/packages/projeto-estudo-sydle-ui/loader"],
       "@my-workspace/test": ["dist/packages/test"],
       "@my-workspace/test/*": ["dist/packages/test/dist/components/*"],
       "@my-workspace/test/loader": ["dist/packages/test/loader"]

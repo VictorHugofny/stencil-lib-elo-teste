@@ -10,6 +10,7 @@ export class Example {
     return (
       <Host>
         <sy-text>Hello!</sy-text>
+        <h1>teste</h1>
       </Host>
     );
   }
